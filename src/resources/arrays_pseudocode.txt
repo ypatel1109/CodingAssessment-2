@@ -1,0 +1,11 @@
+#This programme is for searching first and last index postion from array for target input.
+
+1.Input a target value to find position.
+2.Pass target value to searchRange function to find position. //(public static int[] searchRange(int[] nums, int target))
+3.Declare array for storing result for starting and end position for target.(Initialize the array with {-1,-1}).
+4.Start first For loop to find starting position for the target from start of array.
+  	4.1 If you find the target store index postion of target in first postion of result array.
+5.Start second For loop which starts from end of array to start of array to find last position of target.
+	5.1 If you find the target store index postion of target in first postion of result array.
+6.Print final result for starting and ending index postion for the target input.
+
